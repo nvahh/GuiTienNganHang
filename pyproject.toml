@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "DAPython"
+version = "0.1.0"
+description = "Phan mem quan ly thong tin khach hang gui tien tiet kiem tai ngan hang"
+requires-python = ">=3.14"
+
+dependencies = [
+    "streamlit",
+    "panda",
+    "plotly",
+]
+
+[tool.setuptools]
+packages = ["src"]
